@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="../css/stylescadastro.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+</head>
+<body>
+    <header>
+        <h1><a href="#">Couple Invest</a></h1>
+        <nav class="header-menu">
+            <ul><li><a href="#">Quem Somos</a></li>
+                <li><a href="#">Como Funciona</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>            
+        </nav>
+    </header>
+    <h1>Cadastro</h1>
+
+    <div class="conteiner">
+
+        <div class="box">
+            <h2>Dados Pessoais</h2>
+            <form id="dados" name="dados" method="post" action=""></form>
+
+                <div class="box-form-item">
+                    <label for="nome">Nome</label>
+                    <i class="fa-regular fa-user icon"></i>
+                    <input type="text" placeholder="Ex: Maria" id="nome" name="nome" required>
+                </div>
+
+                <div class="box-form-item">
+                    <label for="sobrenome">Sobrenome</label>
+                    <i class="fa-solid fa-user-tag icon"></i>
+                    <input type="text" placeholder="Ex: Ferreira" id="sobrenome" name="sobrenome" required>
+                </div>
+
+                <div class="box-form-item">
+                    <label for="cpf">CPF</label>
+                    <i class="fa-solid fa-user-secret icon"></i>
+                    <input type="number" placeholder="Ex: 000.000.000-00" id="cpf" name="cpf" required>
+                </div>
+
+                <div class="box-form-item">
+                    <label for="dataNascimento">Data de Nascimento</label>
+                    <i class="fa-solid fa-cake-candles icon"></i>
+                    <input type="date" id="dataNascimento" name="dataNascimento" required>
+                </div>
+        </div>
+
+        <div class="box">
+            <h2>Endereço</h2>
+            <form id="home" name="home" method="post" action=""></form>
+
+                <div class="box-form-item">
+                    <label for="logradouro">Logradpuro</label>
+                    <input type="text" id="logradouro" name="logradouro" required>
+                </div>
+
+                <div class="box-form-item">
+                    <label for="num">nº</label>
+                    <input type="number" id="num" name="num" required>
+                </div>
+
+                <div class="box-form-item">
+                    <label for="complemento">Complemento</label>
+                    <input type="text" placeholder="Opcional" id="complemento" name="complemento">
+                </div>
+
+                <div class="box-form-item">
+                    <label for="bairro">Bairro</label>
+                    <input type="text" id="bairro" name="bairro" required>
+                </div>
+
+                <div class="box-form-item">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" name="cidade" required>
+                </div>
+
+                <div class="box-form-item">
+                    <label for="estado">Estado</label>
+                    <input type="text" id="estado" name="estado" required>
+                </div>
+
+                <div class="box-form-item">
+                    <label for="uf">UF</label>
+                    <input type="text" id="uf" name="uf" required>
+                </div>
+        </div>
+
+        <div class="box">
+            <h2>Contato</h2>
+            <form id="contato" name="contato" method="post" action=""></form>
+
+                <div class="box-form-item">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" placeholder="Ex: 11 90000-0000" id="telefone" name="telefone" required>
+                </div>
+
+                <div class="box-form-item">
+                    <label for="email">E-mail</label>
+                    <i class="fa-solid fa-user-tag icon"></i>
+                    <input type="email" placeholder="Ex: couple@invest.com" id="email" name="email" required>
+                </div>
+
+        </div>
+
+        <div class="box">
+            <h2>Cadastrar Senha</h2>
+            <form id="contato" name="contato" method="post" action=""></form>
+
+                <div class="box-form-item">
+                    <label for="senha">Senha</label>
+                    <input type="password" placeholder="*********" id="senha" name="senha" required>
+                </div>
+
+                <div class="box-form-item">
+                    <label for="senha2">Repita a senha</label>
+                    <input type="password" placeholder="*********" id="senha2" name="senha2" required>
+                </div>
+
+        </div>
+
+        <div class="box-form-button">
+            <button type="submit">Cadastrar</button>
+        </div>
+
+
+        <div class="box-form-button2">
+            <button type="submit"><a href="../pages/login.html">Login</a></button>
+        </div>
+
+        <div class="box-form-button2">
+            <button type="submit"> <a href="../../index.html">Voltar</a></button>
+        </div>
+
+    </div>
+
+</body>
+</html>

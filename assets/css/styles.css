@@ -1,0 +1,60 @@
+body {
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 34px;
+}
+
+div {
+    width: 100%;
+    height: 600px;
+    margin: 10px auto;
+    padding: 30px 0;
+    box-sizing: border-box;
+    box-shadow: 1px 4px 5px #ccc;
+    background-image: url(../images/casal_finanças.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 5px;
+}
+
+div h1 {
+    font-size:45px;
+    margin: 50px 30px;
+    color: rgb(255, 255, 255);
+}
+
+div h2 {
+    margin: 30px 30px 30px;
+    width: 40%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+div p {
+    margin: 30px 30px 30px;
+    width: 70%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+div a {
+    margin: 30px;
+    text-decoration: none;
+    border: 2px solid rgb(5, 167, 53);
+    background-color: rgb(5, 167, 53);
+    color: rgb(255, 255, 255);
+    padding: 8px 30px;
+    border-radius: 7px;
+    font-weight: 600;
+
+}
+
+div a:hover {
+    background-color: transparent;
+    color: rgb(5, 167, 53);
+}
+
